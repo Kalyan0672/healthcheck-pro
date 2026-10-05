@@ -1,0 +1,15 @@
+@"
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Generated monitoring files
+monitoring_history.csv
+dashboard.html
+"@ | Set-Content .gitignore
