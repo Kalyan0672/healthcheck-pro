@@ -408,7 +408,7 @@ def display_results(results):
 
 # STEP 6: RUN MONITORING
 def run_monitor():
-    print("\nChecking websites...")
+    print("\nseeing websites...")
 
     with ThreadPoolExecutor(max_workers=5) as executor:
         results = list(
